@@ -7,6 +7,7 @@ class UsersPage extends Component {
     this.state = {
       usersList: [
         {
+          id: 0,
           firstName: "Milton",
           lastName: "Hobbs",
           age: 57,
@@ -14,6 +15,7 @@ class UsersPage extends Component {
           isFriend: false,
         },
         {
+          id: 1,
           firstName: "Hannibal",
           lastName: "Lector",
           age: 52,
@@ -21,6 +23,7 @@ class UsersPage extends Component {
           isFriend: true,
         },
         {
+          id: 2,
           firstName: "Billy",
           lastName: "Woods",
           age: 22,
