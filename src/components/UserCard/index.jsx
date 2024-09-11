@@ -2,8 +2,7 @@ import React from "react";
 
 const UserCard = (props) => {
   const { userData } = props;
-
-  // console.log(key);
+ 
 
   const arrayJSX = userData.map((elem) => {
     const { firstName, lastName, age, email, id } = elem;
